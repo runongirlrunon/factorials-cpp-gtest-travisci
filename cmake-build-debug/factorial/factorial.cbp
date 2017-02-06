@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="factorial"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;CMake Files\factorial\;CMake Files\factorial_tests\;CMake Files\factorial_tests\lib\;CMake Files\factorial_tests\lib\gtest-1.7.0\;CMake Files\factorial_tests\lib\gtest-1.7.0\cmake\;CMake Files\factorial_tests\basic_tests\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/lhogg/Desktop/school/factorials-cpp-gtest-travisci/cmake-build-debug/factorial"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/lhogg/Desktop/school/factorials-cpp-gtest-travisci/cmake-build-debug/factorial/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/lhogg/Desktop/school/factorials-cpp-gtest-travisci/cmake-build-debug/factorial/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/lhogg/Desktop/school/factorials-cpp-gtest-travisci/cmake-build-debug/factorial/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/lhogg/Desktop/school/factorials-cpp-gtest-travisci/cmake-build-debug/factorial/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="factorial">
+				<Option output="/Users/lhogg/Desktop/school/factorials-cpp-gtest-travisci/cmake-build-debug/factorial/libfactorial.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/lhogg/Desktop/school/factorials-cpp-gtest-travisci/cmake-build-debug/factorial"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/lhogg/Desktop/school/factorials-cpp-gtest-travisci/factorial"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/lhogg/Desktop/school/factorials-cpp-gtest-travisci/cmake-build-debug/factorial/Makefile&quot;  VERBOSE=1 factorial"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/lhogg/Desktop/school/factorials-cpp-gtest-travisci/cmake-build-debug/factorial/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/lhogg/Desktop/school/factorials-cpp-gtest-travisci/cmake-build-debug/factorial/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/lhogg/Desktop/school/factorials-cpp-gtest-travisci/cmake-build-debug/factorial/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="factorial/fast">
+				<Option output="/Users/lhogg/Desktop/school/factorials-cpp-gtest-travisci/cmake-build-debug/factorial/libfactorial.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/lhogg/Desktop/school/factorials-cpp-gtest-travisci/cmake-build-debug/factorial"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/lhogg/Desktop/school/factorials-cpp-gtest-travisci/factorial"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/lhogg/Desktop/school/factorials-cpp-gtest-travisci/cmake-build-debug/factorial/Makefile&quot;  VERBOSE=1 factorial/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/lhogg/Desktop/school/factorials-cpp-gtest-travisci/cmake-build-debug/factorial/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/lhogg/Desktop/school/factorials-cpp-gtest-travisci/cmake-build-debug/factorial/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/lhogg/Desktop/school/factorials-cpp-gtest-travisci/cmake-build-debug/factorial/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/lhogg/Desktop/school/factorials-cpp-gtest-travisci/factorial/factorial.cpp">
+			<Option target="factorial"/>
+		</Unit>
+		<Unit filename="/Users/lhogg/Desktop/school/factorials-cpp-gtest-travisci/factorial/factorial.h">
+			<Option target="factorial"/>
+		</Unit>
+		<Unit filename="/Users/lhogg/Desktop/school/factorials-cpp-gtest-travisci/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/lhogg/Desktop/school/factorials-cpp-gtest-travisci/factorial/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\factorial\"/>
+		</Unit>
+		<Unit filename="/Users/lhogg/Desktop/school/factorials-cpp-gtest-travisci/factorial/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\factorial\"/>
+		</Unit>
+		<Unit filename="/Users/lhogg/Desktop/school/factorials-cpp-gtest-travisci/factorial_tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\factorial_tests\"/>
+		</Unit>
+		<Unit filename="/Users/lhogg/Desktop/school/factorials-cpp-gtest-travisci/factorial_tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\factorial_tests\"/>
+		</Unit>
+		<Unit filename="/Users/lhogg/Desktop/school/factorials-cpp-gtest-travisci/factorial_tests/lib/gtest-1.7.0/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\factorial_tests\lib\gtest-1.7.0\"/>
+		</Unit>
+		<Unit filename="/Users/lhogg/Desktop/school/factorials-cpp-gtest-travisci/factorial_tests/lib/gtest-1.7.0/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\factorial_tests\lib\gtest-1.7.0\"/>
+		</Unit>
+		<Unit filename="/Users/lhogg/Desktop/school/factorials-cpp-gtest-travisci/factorial_tests/lib/gtest-1.7.0/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\factorial_tests\lib\gtest-1.7.0\"/>
+		</Unit>
+		<Unit filename="/Users/lhogg/Desktop/school/factorials-cpp-gtest-travisci/factorial_tests/lib/gtest-1.7.0/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\factorial_tests\lib\gtest-1.7.0\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/lhogg/Desktop/school/factorials-cpp-gtest-travisci/factorial_tests/lib/gtest-1.7.0/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\factorial_tests\lib\gtest-1.7.0\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/lhogg/Desktop/school/factorials-cpp-gtest-travisci/factorial_tests/lib/gtest-1.7.0/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\factorial_tests\lib\gtest-1.7.0\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/lhogg/Desktop/school/factorials-cpp-gtest-travisci/factorial_tests/basic_tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\factorial_tests\basic_tests\"/>
+		</Unit>
+		<Unit filename="/Users/lhogg/Desktop/school/factorials-cpp-gtest-travisci/factorial_tests/basic_tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\factorial_tests\basic_tests\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

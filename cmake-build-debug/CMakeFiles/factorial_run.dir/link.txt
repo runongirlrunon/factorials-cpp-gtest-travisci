@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++   -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/factorial_run.dir/main.cpp.o  -o factorial_run  factorial/libfactorial.a 
