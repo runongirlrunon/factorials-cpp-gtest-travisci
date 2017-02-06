@@ -5,3 +5,6 @@ Simple factorials program, uses Gtest for testing. Cmake for dependency manageme
 Push to the repository automatically runs the test in Travis CI.
 ##Build instructions
 Import the project into CLion
+
+## flip
+(╯°□°）╯︵ ┻━┻
